@@ -8,9 +8,9 @@ I made this a few times now, but I almost always made it with like 95% AI and ne
 This project may take 2-3 weeks  
 Features I want to add:  
 
-- [x] Authentication
-- [] Subjects
-- [] Time Schedule
-- [] Homeworks (with notifications 1d before due)
-- [] Learn Path Generator (using AI)
-- [] Vocabulary learning tool with flash cards (you can scan vocab pages and AI will turn it into the flash cards)
+- [x] Authentication  
+- [ ] Subjects  
+- [ ] Time Schedule  
+- [ ] Homeworks (with notifications 1d before due)  
+- [ ] Learn Path Generator (using AI) 
+- [ ] Vocabulary learning tool with flash cards (you can scan vocab pages and AI will turn it into the flash cards)  
