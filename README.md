@@ -1,6 +1,7 @@
 # Blearn v6
 
-A tool for students packed with many features.
+A tool for students packed with many features. 
+For example students will be able to enter their homeworks into the homework module and they will get a notification when the homework is about to be overdue.
 
 
 I made this a few times now, but I almost always made it with like 95% AI and never actually finished it (except [blearn v2](https://github.com/BigB132/blearn-v2))
