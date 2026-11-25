@@ -24,7 +24,7 @@ const authLimiter = rateLimit({
 
 const registerSchema = z.object({
     email: z.string().trim().toLowerCase().email("Invalid email address"),
-    password: z.string().min(8, 'Password must be atleast 12 characters').max(32, 'Password must not exceed 128 characters.'),
+    password: z.string().min(8, 'Password must be atleast 8 characters').max(32, 'Password must not exceed 128 characters.'),
     username: z.string().trim().min(1).max(100),
 })
 
@@ -73,7 +73,7 @@ authRouter.post('/register', authLimiter, async (req, res) => {
 
         const emailToken = Math.floor(Math.random() * (999999 - 100000 + 1)) + 100000;
 
-        mailer.sendVerificationCode(email, emailToken);
+        mailer.sendVerificationCode(email, username, emailToken);
         
         const newUser = new User({
             email,
