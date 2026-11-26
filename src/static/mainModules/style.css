@@ -1,0 +1,43 @@
+.box {
+    background-color: #064666;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    width:auto;
+    border: 4px solid #219ebc;
+    min-height: 64px;
+    border-radius: 12px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 8px;
+}
+
+.textinput {
+    color: #ffb703;
+    background-color: #023047;
+    border: 0px;
+    border-radius: 4px;
+    height: 24px;
+    width: 164px;
+}
+
+.colorinput {
+    background-color: #023047;
+    border: 0px;
+    border-radius: 4px;
+    height: 24px;
+    width: 164px;
+}
+
+.submitbtn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #fb8500;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+    height: 24px;
+}

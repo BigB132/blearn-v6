@@ -1,0 +1,70 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    gap: 4px;
+}
+
+.form {
+    background-color: #064666;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    min-width: 256px;
+    border: 4px solid #219ebc;
+    border-radius: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.form .subtitle {
+    text-align: center;
+}
+
+.form .input {
+    color: #ffb703;
+    background-color: #023047;
+    border: 0px;
+    border-radius: 2px;
+    height: 24px;
+}
+
+.form button {
+    background-color: #fb8500;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+    height: 24px;
+}
+
+.form .nums {
+    display: flex;
+    width: 256px;
+    gap: 4px;
+}
+
+.form .num {
+    text-align: center;
+    height: 48px;
+    width: 40px;
+    border-radius: 4px;
+    font-size: 24px;
+    background-color: #023047;
+    border: 0px;
+    color: #ffb703;
+}
+
+.form a {
+    color: #8ecae6;
+}

@@ -28,6 +28,7 @@ This project may take 2-3 weeks
 Features I want to add:  
 
 - [x] Authentication  
+- [ ] Dashboard  
 - [ ] Subjects  
 - [ ] Time Schedule  
 - [ ] Homeworks (with notifications 1d before due)  
