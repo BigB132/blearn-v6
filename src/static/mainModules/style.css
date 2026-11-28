@@ -13,6 +13,8 @@
 .flexbox {
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .textinput {
@@ -40,4 +42,44 @@
     border-radius: 8px;
     border: 0px;
     height: 24px;
+    flex: 1;
+}
+
+.cancelbtn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #585858;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+    height: 24px;
+    flex: 1;
+}
+
+.subject-card {
+    border-radius: 8px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 80px;
+}
+
+.subject-name {
+    margin: 8px;
+    margin-bottom: 4px;
+}
+
+.subject-teacher {
+    margin: 8px;
+    margin-top: 4px;
+}
+
+.editbtn {
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    color: white;
 }

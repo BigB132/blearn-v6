@@ -142,7 +142,7 @@ authRouter.post('/logout', (req, res) => {
     return res.status(200).json({ message: 'logged out' })
 });
 
-authRouter.post('/verify', async (req, res) => {
+authRouter.post('/verify', authLimiter, async (req, res) => {
     const token = req.body?.token;
     console.log(token)
 

@@ -18,31 +18,63 @@
         <h1>Subjects</h1>
         <p class="subtitle">Here you can manage all your subjects.</p>
 
-        <div id="subjects" class="box">
-            <p>Loading...</p>
+        <div class="box">
+            <h2>Your subjects</h2>
+            <div id="subjects" class="flexbox">
+                <p id="subject-text">Loading...</p>
+            </div>
         </div>
 
-        <div class="box">
+        <!-- add div -->
+        <div id="adddiv" class="box">
             <h2>Add a new subject</h1>
             <div class="flexbox">
 
                 <div class="subject-group">
                     <p>Name</p>
-                    <input type="text" placeholder="Math, English, Spanish..." class="textinput">
+                    <input id="name" class="textinput" type="text" placeholder="Math, English, Spanish...">
                 </div>
                 <div>
                     <p>Color</p>
-                    <input type="color" placeholder="Choose a color" class="colorinput">
+                    <input id="color" class="colorinput" type="color" placeholder="Choose a color">
                 </div>
                 <div>
                     <p>Teacher</p>
-                    <input type="text" placeholder="Mr. Thompson" class="textinput">
+                    <input id="teacher" class="textinput" type="text" placeholder="Mr. Thompson">
                 </div>
                 
             </div>
 
-            <button class="submitbtn">Add</button>
+            <button id="add-subject" class="submitbtn">Add</button>
         </div>
+
+        <!-- edit div -->
+        <div id="editdiv" class="box">
+            <h2>Edit a subject</h1>
+            <div class="flexbox">
+
+                <div class="subject-group">
+                    <p>Name</p>
+                    <input id="editname" class="textinput" type="text" placeholder="Math, English, Spanish...">
+                </div>
+                <div>
+                    <p>Color</p>
+                    <input id="editcolor" class="colorinput" type="color" placeholder="Choose a color">
+                </div>
+                <div>
+                    <p>Teacher</p>
+                    <input id="editteacher" class="textinput" type="text" placeholder="Mr. Thompson">
+                </div>
+                
+            </div>
+
+            <div class="flexbox">
+                <button id="cancel-edit-button" class="cancelbtn">cancel</button>
+                <button id="edit-button" class="submitbtn">Edit</button>
+            </div>
+        </div>
+
+        <script src="/mainModules/subjects.js"></script>
 
     </body>
 

@@ -21,9 +21,11 @@ mongoose.connect(process.env.DB_URI).then(() => {
 
 const websiteRouter = require('./controllers/websiteController');
 const { authRouter } = require('./controllers/authController');
+const mainModuleController = require('./controllers/mainModuleController');
 
 app.use('/', websiteRouter)
 app.use('/api/auth', authRouter)
+app.use('/api/mainModules', mainModuleController)
 
 app.use(express.static(path.join(__dirname, 'static')))
 
